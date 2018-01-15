@@ -1,0 +1,32 @@
+b = 99
+c = b
+
+if a != 0 then
+    b = b*100
+    b = b + 100000
+    c = b
+    c = c + 17000
+f = 1 : label3
+d = 2
+e = 2 : label2
+g = d : label1
+f = g * e
+g = g - d
+if g = 0 then
+    f = 0
+e = e + 1
+g = e
+g = g - b
+if g != 0 goto label1
+d = d + 1
+g = d
+g = g - b
+if g != 0 goto label2
+if f = 0 then
+    h = h + 1
+g = b
+g = g - c
+if g = 0 then
+    exit
+b = b + 17
+goto label3
